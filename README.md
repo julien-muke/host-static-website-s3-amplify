@@ -52,14 +52,7 @@ In this guide, you'll learn how to use these AWS services together to host a sta
 The procedure for deploying this architecture on AWS consists of the following steps:
 
 * Step 1. [Create EC2 for WordPress](#create-ec2-for-wordpress)
-* Step 2. [Connect to EC2 instance via Instance connect](#connect-ec2-to-instance)
-* Step 3. [Connect to EC2 instance via SSH client (local Terminal)](#connect-ec2-to-ssh)
-* Step 4. [Install Apache on Amazon Linux 2](#install-apache)
-* Step 5. [Install PHP & MariaDB on Amazon Linux 2](#install-php-mariadb)
-* Step 6. [Download the latest WordPress zip file](#download-wordpress)
-* Step 7. [Create RDS instance for WordPress website](#rds-wp)
-* Step 8. [Connect RDS and EC2 instance](#connect-rds-ec2)
-* Step 9. [WordPress Installation on Amazon Linux 2 EC2 instance](#install-wp-on-ec2)
+
 
 ## <a name="create-ec2-for-wordpress">➡️ Step 1 - Create EC2 for WordPress</a>
 
