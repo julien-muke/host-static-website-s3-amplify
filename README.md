@@ -26,7 +26,13 @@ like these step-by-step in a beginner-friendly manner!
 
 Static websites are an efficient and cost-effective way to deliver content to users, as they consist of pre-built HTML, CSS, and JavaScript files that require no server-side processing. Hosting such websites on AWS provides a scalable, reliable, and secure solution, leveraging the cloud provider's global infrastructure.
 
-Additionally, we will utilize Amazon Route 53 for domain name management and DNS routing. This comprehensive approach not only simplifies the deployment process but also equips your WordPress site with the robust infrastructure needed to handle varying levels of traffic, ensuring optimal performance and uptime.
+AWS offers multiple services to simplify static website hosting. Amazon S3 (Simple Storage Service) allows you to store and serve static files with high availability and minimal cost. AWS Amplify, a development and hosting platform, streamlines deployment and continuous integration for modern web applications. To ensure seamless access and custom domain management, Amazon Route 53, AWS's DNS service, plays a crucial role in routing user requests to your website.
+
+In this guide, you'll learn how to use these AWS services together to host a static website. We'll cover:
+
+1. Setting up a static website using Amazon S3 with public file hosting.
+2. Deploying and managing your website using AWS Amplify for a streamlined CI/CD pipeline.
+3. Configuring custom domains and DNS routing with Amazon Route 53 to make your website accessible to the world.
 
 
 ## 📐 Architecture Diagram Overview
