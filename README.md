@@ -37,22 +37,14 @@ In this guide, you'll learn how to use these AWS services together to host a sta
 
 ## 📐 Architecture Diagram Overview
 
-* Users will request to open WordPress website, that request will be received by Route 53 which is a domain Management Service in AWS.
-* We will use Route 53 to host DNS entries of the website's domain.
-* Route 53 will send request to Application Load Balancer (ALB), it handles distribution of the traffic, if you have multiple instances of the same website, it will handle all the incoming requests. 
-* ALB also support SSL certificate through AWS Certificate Manager, we will use it to issue a new SSL certificate for our domain name and ALB will apply that SSL certificate and send request to EC2 instance.
-* EC2 instance is a virtual server where we will install all the needed packages to run WordPress  and create files of our WordPress website.
-* We will make EC2 and RDS accessible to public source and enforce security via Security Group rules.
-* We will create an EC2 instance which will be our Virtual Server and RDS instance which will be used for Database Hosting.
+* 
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
-- Amazon EC2
-- Amazon Application Load Balancer (ALB)
-- Amazon RDS
+- Amazon Amazon S3 (Simple Storage Service)
+- AWS Amplify
 - Amazon Route 53
 - AWS Certificate Manager
-- WordPress
 
 
 ## <a name="steps">☑️ Steps</a>
