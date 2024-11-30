@@ -1,0 +1,1 @@
+# host-static-website-s3-amplify
