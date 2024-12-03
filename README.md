@@ -114,6 +114,14 @@ But now the recommendation is to go with amplify instead. There is a new way to 
 Now, to host static website with AWS Amplify with content stored on S3:
 
 1. From the Amazon S3 Console, click on `Properties` then scroll down to `static website hosting`
+2. Click on `Create Amplify App`
+
+![Screenshot 2024-12-02 174700](https://github.com/user-attachments/assets/9935edb8-27c2-4f77-8a83-3ed8fe8ca248)
+
+3. That'll open up a new tab and take us to the amplify console and here it's basically created a new app for us it's linking it up to the the S3 bucket and all we have to do is save and deploy.
+
+![Screenshot 2024-12-02 174754](https://github.com/user-attachments/assets/4da8656a-b9e4-48a4-96bd-fa459aa839a9)
+
 
 ## 💰 Cost
 
