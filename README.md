@@ -84,13 +84,23 @@ This procedure explains how to upload objects and folders to an Amazon S3 bucket
 
 To upload folders and files to an S3 bucket:
 
-1. In the left navigation pane, choose Buckets.
-2. In the Buckets list, choose the name of the bucket that you want to upload your folders or files to.
-3. Choose Upload.
-4. In the Upload window, Drag and drop files and folders to the Upload window.
-5. To upload your objects, choose Upload.
+1. In the Buckets list, choose the name of the bucket that you want to upload your folders or files to, then click `View details`.
 
-Amazon S3 uploads your object. When the upload completes, you can see a success message on the Upload: status page.
+![Screenshot 2024-12-02 174053](https://github.com/user-attachments/assets/2762a2a1-e9b9-4718-b580-91ca49e54576)
+
+2. Choose Upload.
+
+![Screenshot 2024-12-02 174142](https://github.com/user-attachments/assets/6c1f0b44-f87b-44af-80ae-827c324fac21)
+
+3. In the Upload window, Drag and drop files and folders to the Upload window.
+
+![Screenshot 2024-12-02 174210](https://github.com/user-attachments/assets/ede3c609-5deb-4c12-ad4a-d8dbba0e27ab)
+
+4. To upload your objects, choose Upload.
+
+Amazon S3 uploads your object. When the upload completes, you can see a success message on the Upload status page.
+
+
 
 
 ## 💰 Cost
