@@ -58,8 +58,9 @@ Before starting this guide, you will need:
 The procedure for deploying this architecture on AWS consists of the following steps:
 
 * Step 1. [Create a bucket](#create-a-bucket)
-* Step 2. [Create a new Amplify App](#create-a-new-amplify-app)
-* Step 3. [Add a custom domain name with Amazon Route 53](#custom-doamin-with-route-53)
+* Step 2. [Upload files to S3](#upload-flies-to-s3)
+* Step 3. [Create a new Amplify App](#create-a-new-amplify-app)
+* Step 4. [Add a custom domain name with Amazon Route 53](#custom-doamin-with-route-53)
 
 
 ## <a name="create-a-bucket">➡️ Step 1 - Create a bucket</a>
@@ -75,6 +76,21 @@ To create a bucket
 6. To accept the default settings and create the bucket, choose Create.
 
 ![Create-S3-bucket-S3-us-east-1-12-02-2024_05_39_PM](https://github.com/user-attachments/assets/c356382e-de3b-487f-8b3d-834dae15e754)
+
+
+## <a name="upload-flies-to-s3">➡️ Step 2 - Upload files to S3</a>
+
+This procedure explains how to upload objects and folders to an Amazon S3 bucket by using the console.
+
+To upload folders and files to an S3 bucket:
+
+1. In the left navigation pane, choose Buckets.
+2. In the Buckets list, choose the name of the bucket that you want to upload your folders or files to.
+3. Choose Upload.
+4. In the Upload window, Drag and drop files and folders to the Upload window.
+5. To upload your objects, choose Upload.
+
+Amazon S3 uploads your object. When the upload completes, you can see a success message on the Upload: status page.
 
 
 ## 💰 Cost
