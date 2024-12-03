@@ -1,7 +1,8 @@
 # ![aws](https://github.com/julien-muke/Search-Engine-Website-using-AWS/assets/110755734/01cd6124-8014-4baa-a5fe-bd227844d263) Hosting a static website using Amazon S3 and AWS Amplify.
 
 
-![s3-amplify-route53](https://github.com/user-attachments/assets/e46a4dd8-2ab4-4a75-b494-db1e48d15b5e)
+![aws_amplify](https://github.com/user-attachments/assets/ca722227-e0b8-4979-baa4-e091dc862fc1)
+
 
 <div align="center">
 
