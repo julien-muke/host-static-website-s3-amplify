@@ -131,6 +131,24 @@ in the past, is that if we go to the S3 bucket and click on permissions tab, the
 
 But we don't have to do that anymore with amplify, you'll see the policy got filled in automatically for us and we don't get any sort of access denied.
 
+## <a name="custom-doamin-with-route-53">➡️ Step 4 - Add a custom domain name with Amazon Route 53</a>
+
+Amazon Route 53 is a highly available and scalable DNS service. For more information, see Amazon Route 53 in the [Amazon Route 53](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/Welcome.html) Developer Guide.
+
+ If you already have a Route 53 domain, use the following [instructions](https://docs.aws.amazon.com/amplify/latest/userguide/to-add-a-custom-domain-managed-by-amazon-route-53.html) to connect your custom domain to your Amplify app.
+
+ If you are not using Amazon Route 53 to manage your domain, you can add a custom domain managed by a third-party DNS provider to your app deployed with Amplify (we'll use this option in this tutorial).
+
+ To add a custom domain managed by a third-party DNS provider:
+
+ 1. Navigate to the Amplify console.
+ 2. Choose your app that you want to add a custom domain to.
+ 3. In the navigation pane, choose Hosting, Custom domains.
+ 4. On the Custom domains page, choose Add domain.
+ 5. Enter the name of your root domain. For example, if the name of your domain is `https://example.com`, enter `example.com`
+
+
+
 ## 💰 Cost
 
 All services used are eligible for the AWS Free Tier. However, charges will incur at some point so it's recommended that you shut down resources after completing this tutorial.
