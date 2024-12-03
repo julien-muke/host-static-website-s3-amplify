@@ -135,19 +135,29 @@ But we don't have to do that anymore with amplify, you'll see the policy got fil
 
 Amazon Route 53 is a highly available and scalable DNS service. For more information, see Amazon Route 53 in the [Amazon Route 53](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/Welcome.html) Developer Guide.
 
- If you already have a Route 53 domain, use the following [instructions](https://docs.aws.amazon.com/amplify/latest/userguide/to-add-a-custom-domain-managed-by-amazon-route-53.html) to connect your custom domain to your Amplify app.
+If you already have a Route 53 domain, use the following [instructions](https://docs.aws.amazon.com/amplify/latest/userguide/to-add-a-custom-domain-managed-by-amazon-route-53.html) to connect your custom domain to your Amplify app.
 
- If you are not using Amazon Route 53 to manage your domain, you can add a custom domain managed by a third-party DNS provider to your app deployed with Amplify (we'll use this option in this tutorial).
+If you are not using Amazon Route 53 to manage your domain, you can add a custom domain managed by a third-party DNS provider to your app deployed with Amplify (we'll use this option in this tutorial).
 
- To add a custom domain managed by a third-party DNS provider:
+To add a custom domain managed by a third-party DNS provider:
 
- 1. Navigate to the Amplify console.
- 2. Choose your app that you want to add a custom domain to.
- 3. In the navigation pane, choose Hosting, Custom domains.
- 4. On the Custom domains page, choose Add domain.
- 5. Enter the name of your root domain. For example, if the name of your domain is `https://example.com`, enter `example.com`
+1. Navigate to the Amplify console.
+2. Choose your app that you want to add a custom domain to.
+3. In the navigation pane, choose Hosting, Custom domains.
+4. On the Custom domains page, choose Add domain.
+5. Enter the name of your root domain. For example, if the name of your domain is `https://example.com`, enter `example.com`
+6. Amplify detects that you are not using a Route 53 domain and gives you the option to create a hosted zone in Route 53.
 
+To create a hosted zone in Route 53:
 
+a. Choose Create hosted zone on Route 53.
+b. Choose Configure domain.
+c. Hosted zone name servers are displayed in the console. Go to your DNS provider's website and add the name servers to your DNS settings.
+d. Select I have added the above name servers to my domain registry.
+
+7. By default, Amplify automatically creates two subdomain entries for your domain. For example, if your domain name is example.com, you will see the subdomains https://www.example.com and https://example.com with a redirect set up from the root domain to the `www` subdomain.
+
+8. Choose the SSL/TLS certificate to use. You can either use the default managed certificate that Amplify provisions for you, or a custom third-party certificate that you have imported into AWS Certificate Manager.
 
 ## 💰 Cost
 
