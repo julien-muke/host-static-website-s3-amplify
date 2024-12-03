@@ -150,7 +150,7 @@ To add a custom domain managed by a third-party DNS provider:
 
 To create a hosted zone in Route 53:
 
-<br>a. Choose Create hosted zone on Route 53.
+a. Choose Create hosted zone on Route 53.
 <br>b. Choose Configure domain.
 <br>c. Hosted zone name servers are displayed in the console. Go to your DNS provider's website and add the name servers to your DNS settings.
 <br>d. Select I have added the above name servers to my domain registry.
