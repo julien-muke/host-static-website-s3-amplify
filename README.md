@@ -64,7 +64,15 @@ The procedure for deploying this architecture on AWS consists of the following s
 
 ## <a name="create-a-bucket">➡️ Step 1 - Create a bucket</a>
 
+To create a bucket
 
+1. Sign in to the AWS Management Console and open the Amazon S3 console at https://console.aws.amazon.com/s3/.
+2. Choose Create bucket.
+3. Enter the Bucket name.
+4. Choose the Region where you want to create the bucket.
+5. Choose a Region that is geographically close to you to minimize latency and costs, or to address regulatory requirements. The Region that you choose determines your Amazon S3 website endpoint. For more information, see 
+[Website endpoints](https://docs.aws.amazon.com/AmazonS3/latest/userguide/WebsiteEndpoints.html).
+6. To accept the default settings and create the bucket, choose Create.
 
 
 
