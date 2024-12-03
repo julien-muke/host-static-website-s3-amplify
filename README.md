@@ -96,9 +96,11 @@ To upload folders and files to an S3 bucket:
 
 ![Screenshot 2024-12-02 174210](https://github.com/user-attachments/assets/ede3c609-5deb-4c12-ad4a-d8dbba0e27ab)
 
-4. To upload your objects, choose Upload.
+4. To upload your files, choose Upload.
 
-Amazon S3 uploads your object. When the upload completes, you can see a success message on the Upload status page.
+Note: If you want the static website used in this tutorial, you can find the source code [here]()
+
+Amazon S3 uploads your files. When the upload completes, you can see a success message on the Upload status page.
 
 ![Screenshot 2024-12-02 174555](https://github.com/user-attachments/assets/e8975f02-f640-4b3f-87a0-369826b4a098)
 
