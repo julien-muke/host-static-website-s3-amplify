@@ -100,7 +100,7 @@ To upload folders and files to an S3 bucket:
 
 Amazon S3 uploads your object. When the upload completes, you can see a success message on the Upload status page.
 
-
+![Screenshot 2024-12-02 174555](https://github.com/user-attachments/assets/e8975f02-f640-4b3f-87a0-369826b4a098)
 
 
 ## 💰 Cost
