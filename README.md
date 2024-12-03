@@ -58,7 +58,7 @@ Before starting this guide, you will need:
 The procedure for deploying this architecture on AWS consists of the following steps:
 
 * Step 1. [Create a bucket](#create-a-bucket)
-* Step 2. [Upload files to S3](#upload-flies-to-s3)
+* Step 2. [Upload files to S3](#upload-files-to-s3)
 * Step 3. [Create a new Amplify App](#create-a-new-amplify-app)
 * Step 4. [Add a custom domain name with Amazon Route 53](#custom-doamin-with-route-53)
 
@@ -78,7 +78,7 @@ To create a bucket
 ![Create-S3-bucket-S3-us-east-1-12-02-2024_05_39_PM](https://github.com/user-attachments/assets/c356382e-de3b-487f-8b3d-834dae15e754)
 
 
-## <a name="upload-flies-to-s3">➡️ Step 2 - Upload files to S3</a>
+## <a name="upload-files-to-s3">➡️ Step 2 - Upload files to S3</a>
 
 This procedure explains how to upload objects and folders to an Amazon S3 bucket by using the console.
 
@@ -104,6 +104,12 @@ Amazon S3 uploads your files. When the upload completes, you can see a success m
 
 ![Screenshot 2024-12-02 174555](https://github.com/user-attachments/assets/e8975f02-f640-4b3f-87a0-369826b4a098)
 
+
+## <a name="create-a-new-amplify-app">➡️ Step 3 - Create a new Amplify App</a>
+
+If you done this in the past, you might know that to host your static website on Amazon S3 was just enable `static website hosting on S3` and you can still do that at least for now.
+
+But now the recommendation is to go with amplify instead. There is a new way to host a static website on AWS, it includes S3 as well as amplify hosting. There have been some changes and very recently the recommendation changed to using amplify hosting instead of only S3.
 
 ## 💰 Cost
 
