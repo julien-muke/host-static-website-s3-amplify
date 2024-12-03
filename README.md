@@ -48,8 +48,6 @@ Before starting this guide, you will need:
 
 **Prerequisites**
 
-Make sure you have the following:
-
 - [Create an AWS account](https://aws.amazon.com/)
 - Static website source code (html, css and javascript) used in the video can be found [here]()
 - Custom Domain with [Amazon Route 53](https://aws.amazon.com/getting-started/hands-on/get-a-domain/) or use a 3rd party domain registrar for example [Hostinger](https://www.hostinger.com/)
@@ -59,10 +57,14 @@ Make sure you have the following:
 
 The procedure for deploying this architecture on AWS consists of the following steps:
 
-* Step 1. [Create EC2 for WordPress](#create-ec2-for-wordpress)
+* Step 1. [Create a bucket](#create-a-bucket)
+* Step 2. [Create a new Amplify App](#create-a-new-amplify-app)
+* Step 3. [Add a custom domain name with Amazon Route 53](#custom-doamin-with-route-53)
 
 
-## <a name="create-ec2-for-wordpress">➡️ Step 1 - Create EC2 for WordPress</a>
+## <a name="create-a-bucket">➡️ Step 1 - Create a bucket</a>
+
+
 
 
 
