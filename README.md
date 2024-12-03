@@ -111,6 +111,10 @@ If you done this in the past, you might know that to host your static website on
 
 But now the recommendation is to go with amplify instead. There is a new way to host a static website on AWS, it includes S3 as well as amplify hosting. There have been some changes and very recently the recommendation changed to using amplify hosting instead of only S3.
 
+Now, to host static website with AWS Amplify with content stored on S3:
+
+1. From the Amazon S3 Console, click on `Properties` then scroll down to `static website hosting`
+
 ## 💰 Cost
 
 All services used are eligible for the AWS Free Tier. However, charges will incur at some point so it's recommended that you shut down resources after completing this tutorial.
