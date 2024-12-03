@@ -36,16 +36,23 @@ In this guide, you'll learn how to use these AWS services together to host a sta
 3. Configuring custom domains and DNS routing with Amazon Route 53 to make your website accessible to the world.
 
 
-## 📐 Architecture Diagram Overview
-
-* 
-
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
 - Amazon Amazon S3 (Simple Storage Service)
 - AWS Amplify
 - Amazon Route 53
-- AWS Certificate Manager
+
+## <a name="quick-start">🤸 Quick Start</a>
+
+Before starting this guide, you will need:
+
+**Prerequisites**
+
+Make sure you have the following:
+
+- [Create an AWS account](https://aws.amazon.com/)
+- Static website source code (html, css and javascript) used in the video can be found [here]()
+- Custom Domain with [Amazon Route 53](https://aws.amazon.com/getting-started/hands-on/get-a-domain/) or use a 3rd party domain registrar for example [Hostinger](https://www.hostinger.com/)
 
 
 ## <a name="steps">☑️ Steps</a>
