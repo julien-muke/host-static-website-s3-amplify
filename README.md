@@ -122,6 +122,11 @@ Now, to host static website with AWS Amplify with content stored on S3:
 
 ![Screenshot 2024-12-02 174754](https://github.com/user-attachments/assets/4da8656a-b9e4-48a4-96bd-fa459aa839a9)
 
+Note: Amplify Hosting is a fully managed service that makes it easy to deploy your websites on a globally available content delivery network (CDN) powered by Amazon CloudFront, allowing secure static website hosting. 
+
+![Screenshot 2024-12-02 174956](https://github.com/user-attachments/assets/d64ec4ab-ecb2-4500-9d04-929b0f16270f)
+
+
 
 ## 💰 Cost
 
