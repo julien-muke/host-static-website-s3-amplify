@@ -126,7 +126,10 @@ Note: Amplify Hosting is a fully managed service that makes it easy to deploy yo
 
 ![Screenshot 2024-12-02 174956](https://github.com/user-attachments/assets/d64ec4ab-ecb2-4500-9d04-929b0f16270f)
 
+Note: Now, something that happened on the backend that you might not notice, unless you did this
+in the past, is that if we go to the S3 bucket and click on permissions tab, then under bucket policy, you used to have to manually go enter a `policy` that would give access to the files in the bucket, otherwise you would get a permission denied error.
 
+But we don't have to do that anymore with amplify, you'll see the policy got filled in automatically for us and we don't get any sort of access denied.
 
 ## 💰 Cost
 
