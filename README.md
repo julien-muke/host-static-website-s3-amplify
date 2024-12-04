@@ -158,6 +158,10 @@ a. Choose Create hosted zone on Route 53.
 7. By default, Amplify automatically creates two subdomain entries for your domain. For example, if your domain name is example.com, you will see the subdomains https://www.example.com and https://example.com with a redirect set up from the root domain to the `www` subdomain.
 
 8. Choose the SSL/TLS certificate to use. You can either use the default managed certificate that Amplify provisions for you, or a custom third-party certificate that you have imported into AWS Certificate Manager.
+9. Use the default Amplify managed certificate, Choose Amplify managed certificate.
+10. Choose Add domain.
+
+
 
 ## 💰 Cost
 
