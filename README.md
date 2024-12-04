@@ -181,10 +181,14 @@ Amazon Amplify will create, configure the SSL certificate and activate your doma
 ![Screenshot 2024-12-02 180415](https://github.com/user-attachments/assets/6e4cbf7a-f8f4-4f73-a4b4-bb5d2634c86e)
 
 
-Once you domain is activated, open your Url
+Once you domain is activated, Visit your custom domain to verify the website is accessible.
 
 ![Screenshot 2024-12-02 181606](https://github.com/user-attachments/assets/f44e1145-0cf3-46e9-a7a0-14d427aaef59)
 
+
+## Conclusion
+
+By following these steps, you can efficiently host a static website on AWS using Amazon S3, AWS Amplify, and Amazon Route 53, ensuring scalability, reliability, and a professional user experience.
 
 ## 💰 Cost
 
