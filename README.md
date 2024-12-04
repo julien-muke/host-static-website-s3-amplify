@@ -175,7 +175,15 @@ a. Choose Create hosted zone on Route 53.
 
 ![Custom-Domains-Amplify-us-east-1-12-02-2024_06_03_PM](https://github.com/user-attachments/assets/2a17a441-267f-40ff-8200-a14d1e8a5ce9)
 
+Amazon Amplify will create, configure the SSL certificate and activate your domain.
 
+
+![Screenshot 2024-12-02 180415](https://github.com/user-attachments/assets/6e4cbf7a-f8f4-4f73-a4b4-bb5d2634c86e)
+
+
+Once you domain is activated, open your Url
+
+![Screenshot 2024-12-02 181606](https://github.com/user-attachments/assets/f44e1145-0cf3-46e9-a7a0-14d427aaef59)
 
 
 ## 💰 Cost
