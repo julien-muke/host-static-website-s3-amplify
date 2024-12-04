@@ -157,6 +157,11 @@ To create a hosted zone in Route 53:
 a. Choose Create hosted zone on Route 53.
 <br>b. Choose Configure domain.
 <br>c. Hosted zone name servers are displayed in the console. Go to your DNS provider's website and add the name servers to your DNS settings.
+
+
+![Custom-Domains-Amplify-us-east-1-12-02-2024_06_00_PM](https://github.com/user-attachments/assets/88b6f8c4-3f96-4b61-8f88-3544bf0c6a31)
+
+
 <br>d. Select I have added the above name servers to my domain registry.
 
 7. By default, Amplify automatically creates two subdomain entries for your domain. For example, if your domain name is example.com, you will see the subdomains https://www.example.com and https://example.com with a redirect set up from the root domain to the `www` subdomain.
