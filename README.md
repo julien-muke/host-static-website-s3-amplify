@@ -149,6 +149,9 @@ To add a custom domain managed by a third-party DNS provider:
 6. Amplify detects that you are not using a Route 53 domain and gives you the option to create a hosted zone in Route 53.
 7. Then choose Create hosted zone on Route 53, then click configure domain.
 
+![Screenshot 2024-12-02 175942](https://github.com/user-attachments/assets/a2a85a9e-68e0-4179-b183-5c683d567c42)
+
+
 To create a hosted zone in Route 53:
 
 a. Choose Create hosted zone on Route 53.
