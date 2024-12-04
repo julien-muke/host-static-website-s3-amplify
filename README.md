@@ -161,6 +161,9 @@ a. Choose Create hosted zone on Route 53.
 
 ![Custom-Domains-Amplify-us-east-1-12-02-2024_06_00_PM](https://github.com/user-attachments/assets/88b6f8c4-3f96-4b61-8f88-3544bf0c6a31)
 
+<br>d. Copy your name server and go to your third-party DNS provider's website and add the name servers to your DNS settings.
+
+![Screenshot 2024-12-02 180224](https://github.com/user-attachments/assets/1765df42-1d0d-4b9c-834d-0659040dc0ad)
 
 <br>d. Select I have added the above name servers to my domain registry.
 
@@ -169,6 +172,9 @@ a. Choose Create hosted zone on Route 53.
 8. Choose the SSL/TLS certificate to use. You can either use the default managed certificate that Amplify provisions for you, or a custom third-party certificate that you have imported into AWS Certificate Manager.
 9. Use the default Amplify managed certificate, Choose Amplify managed certificate.
 10. Choose Add domain.
+
+![Custom-Domains-Amplify-us-east-1-12-02-2024_06_03_PM](https://github.com/user-attachments/assets/2a17a441-267f-40ff-8200-a14d1e8a5ce9)
+
 
 
 
