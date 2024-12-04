@@ -73,7 +73,7 @@ To create a bucket
 4. Choose the Region where you want to create the bucket.
 5. Choose a Region that is geographically close to you to minimize latency and costs, or to address regulatory requirements. The Region that you choose determines your Amazon S3 website endpoint. For more information, see 
 [Website endpoints](https://docs.aws.amazon.com/AmazonS3/latest/userguide/WebsiteEndpoints.html).
-6. To accept the default settings and create the bucket, choose Create.
+6. Keep the default settings and create the bucket, choose Create bucket.
 
 ![Create-S3-bucket-S3-us-east-1-12-02-2024_05_39_PM](https://github.com/user-attachments/assets/c356382e-de3b-487f-8b3d-834dae15e754)
 
