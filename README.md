@@ -32,7 +32,7 @@ AWS offers multiple services to simplify static website hosting. Amazon S3 (Simp
 In this guide, you'll learn how to use these AWS services together to host a static website. We'll cover:
 
 1. Setting up a static website using Amazon S3 with public file hosting.
-2. Deploying and managing your website using AWS Amplify for a streamlined CI/CD pipeline.
+2. Deploying and managing your website using AWS Amplify.
 3. Configuring custom domains and DNS routing with Amazon Route 53 to make your website accessible to the world.
 
 
