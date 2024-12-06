@@ -50,7 +50,7 @@ Before starting this guide, you will need:
 
 - [Create an AWS account](https://aws.amazon.com/)
 - Static website source code (html, css and javascript) used in the video can be found [here]()
-- Custom Domain with [Amazon Route 53](https://aws.amazon.com/getting-started/hands-on/get-a-domain/) or use a 3rd party domain registrar for example [Hostinger](https://www.hostinger.com/)
+- (Optional) Custom Domain with [Amazon Route 53](https://aws.amazon.com/getting-started/hands-on/get-a-domain/) or use a 3rd party domain registrar for example [Hostinger](https://www.hostinger.com/)
 
 
 ## <a name="steps">☑️ Steps</a>
@@ -98,7 +98,7 @@ To upload folders and files to an S3 bucket:
 
 4. To upload your files, choose Upload.
 
-Note: If you want the static website used in this tutorial, you can find the source code [here]()
+Note: If you want the static website used in this tutorial, you can find the source code [here](https://drive.google.com/drive/folders/1YZyObL5uVO5Yvwjb1M6BTp6OKIQ1ja10?usp=sharing)
 
 Amazon S3 uploads your files. When the upload completes, you can see a success message on the Upload status page.
 
