@@ -48,7 +48,7 @@ Before starting this guide, you will need:
 
 **Prerequisites**
 
-- [Create an AWS account](https://aws.amazon.com/)
+- Have an [AWS account](https://aws.amazon.com/)
 - Static website source code (html, css and javascript) used in the video can be found [here](https://drive.google.com/drive/folders/1YZyObL5uVO5Yvwjb1M6BTp6OKIQ1ja10?usp=sharing)
 - (Optional) Custom Domain with [Amazon Route 53](https://aws.amazon.com/getting-started/hands-on/get-a-domain/) or use a 3rd party domain registrar for example [Hostinger](https://www.hostinger.com/)
 
